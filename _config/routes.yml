@@ -1,0 +1,6 @@
+Name: hijackroutes 
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    '': 'Hijack'
